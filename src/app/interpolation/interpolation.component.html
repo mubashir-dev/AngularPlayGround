@@ -1,0 +1,8 @@
+<div class="inperpolation">
+  <h2 [ngClass]="{'e':chng==true}">{{title}}</h2>
+  <p>{{name}}</p>
+  <p>{{comp}}</p>
+  <p>{{test}}</p>
+  <img [src]="imgSrc.link" [ngClass]="'imgCss e'">
+  <button (click)="changeCss(title)">Change Css</button>
+</div>
